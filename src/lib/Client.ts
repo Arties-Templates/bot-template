@@ -1,7 +1,7 @@
 import { SapphireClient } from '@sapphire/framework'
 import './setup'
 
-export default class extends SapphireClient {
+export default class Client extends SapphireClient {
   public async start(): Promise<this> {
     this._init()
     await super.login()

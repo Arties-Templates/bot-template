@@ -1,4 +1,4 @@
-import { envParseArray } from '@lib/env'
+import { envParseArray } from '#lib/env'
 import { Precondition } from '@sapphire/framework'
 import type { Message } from 'discord.js'
 

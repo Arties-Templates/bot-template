@@ -6,9 +6,13 @@
     "importsNotUsedAsValues": "error",
     "experimentalDecorators": true,
     "baseUrl": ".",
+    "rootDir": ".",
     "paths": {
-      "@lib/*": ["./lib/*"],
-      "@lib/env": ["./lib/env/parser.ts"]
-    }
-  }
+      "#lib/*": ["./lib/*"],
+      "#lib/env": ["./lib/env/parser.ts"]
+    },
+    "importHelpers": true
+  },
+  "include": ["."],
+  "exclude": ["tsconfig.json"]
 }

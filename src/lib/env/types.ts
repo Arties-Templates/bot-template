@@ -9,5 +9,5 @@ export type EnvInteger = { [K in EnvAny]: Env[K] extends IntegerString ? K : nev
 export interface Env {
   DISCORD_TOKEN: string
   PREFIX: string
-  OWNERS: string[]
+  OWNERS: string
 }
