@@ -7,7 +7,7 @@
 ## Setup of the Bot
 
 - Go to the `src` directory and use `cp .env.development .env.development.local` and fill out the copied file
-- To add multiple owners just simply use spaces (Example: OWNERS='389252140184633363 546545339167932416')
+- To add multiple owners just simply use spaces
 
 ## Running the Bot
 
