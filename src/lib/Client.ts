@@ -9,7 +9,7 @@ export default class Client extends SapphireClient {
     return this
   }
 
-  public stop() {
+  public stop(): void {
     this.logger.warn('Received exit signal. Terminating in 5 seconds...')
     this.destroy()
     setTimeout(() => {
@@ -18,7 +18,7 @@ export default class Client extends SapphireClient {
     }, 5000)
   }
 
-  private _init() {
+  private _init(): void {
     process.once('SIGINT', () => this.stop())
     process.once('SIGTERM', () => this.stop())
   }
