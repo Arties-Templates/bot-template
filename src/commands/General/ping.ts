@@ -1,15 +1,24 @@
 import { ApplyOptions } from '@sapphire/decorators'
 import { isMessageInstance } from '@sapphire/discord.js-utilities'
-import { Command } from '@sapphire/framework'
+import { ChatInputCommand, Command, RegisterBehavior } from '@sapphire/framework'
 import type { Message } from 'discord.js'
 
 @ApplyOptions<Command.Options>({
   description: 'Returns bot latency',
-  chatInputCommand: {
-    register: true
-  }
 })
 export class Ping extends Command {
+  public override registerApplicationCommands(registry: ChatInputCommand.Registry): void {
+    registry.registerChatInputCommand(
+      (builder) =>
+        builder
+          .setName(this.name)
+          .setDescription(this.description),
+      {
+        behaviorWhenNotIdentical: RegisterBehavior.Overwrite,
+      }
+    )
+  }
+  
   public override async chatInputRun(interaction: Command.ChatInputInteraction): Promise<Message | unknown> {
     const msg = await interaction.reply({ content: 'Pong!', fetchReply: true, ephemeral: true })
 
