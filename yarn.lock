@@ -284,12 +284,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/plugin-subcommands@npm:^2.1.3":
-  version: 2.2.0
-  resolution: "@sapphire/plugin-subcommands@npm:2.2.0"
+"@sapphire/plugin-subcommands@npm:^3.0.0":
+  version: 3.1.1
+  resolution: "@sapphire/plugin-subcommands@npm:3.1.1"
   dependencies:
-    tslib: ^2.3.1
-  checksum: ac4d3c80fe311455510e7be74ff077ec3d455cd11e39adf0428bd722081bcc28c3d1809be8d78da67cc5b37db49a5d12a88a60150bac6269d783353fedfc3a30
+    "@sapphire/utilities": ^3.9.2
+    tslib: ^2.4.0
+  checksum: ab86654e5e7b3f745baae40c529dcc7dce536ee87512a7f1240bd3b44b45f65a738d7d3f57d035b3e2ba434519795cdfa896e277fd0372fdf846971e3d02e63a
   languageName: node
   linkType: hard
 
@@ -365,6 +366,13 @@ __metadata:
   version: 3.6.2
   resolution: "@sapphire/utilities@npm:3.6.2"
   checksum: 71210753b446f3f2835dd9d28fb10767f4c6f005b465eea179082d9f2c071acb7dcd2aebdf7c4974b26aad3ab2374a1dd168a66371b06bd65f248bbca4a90cda
+  languageName: node
+  linkType: hard
+
+"@sapphire/utilities@npm:^3.9.2":
+  version: 3.9.2
+  resolution: "@sapphire/utilities@npm:3.9.2"
+  checksum: eeef33b03b802e931ada752b8c335cc8bde4017f8029b577b0247e3f3d2b57bf5f1936b2c8c29aef5e2c6975d9b162363e4c5c434c4fead0bba74253d067b4d9
   languageName: node
   linkType: hard
 
@@ -2962,7 +2970,7 @@ __metadata:
     "@sapphire/plugin-editable-commands": ^1.1.3
     "@sapphire/plugin-hmr": ^1.1.0
     "@sapphire/plugin-logger": ^2.1.2
-    "@sapphire/plugin-subcommands": ^2.1.3
+    "@sapphire/plugin-subcommands": ^3.0.0
     "@sapphire/time-utilities": ^1.5.1
     "@sapphire/type": ^2.1.2
     "@sapphire/utilities": ^3.2.0
