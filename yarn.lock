@@ -284,13 +284,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/plugin-subcommands@npm:^3.0.0":
-  version: 3.1.1
-  resolution: "@sapphire/plugin-subcommands@npm:3.1.1"
+"@sapphire/plugin-subcommands@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "@sapphire/plugin-subcommands@npm:5.0.0"
   dependencies:
-    "@sapphire/utilities": ^3.9.2
-    tslib: ^2.4.0
-  checksum: ab86654e5e7b3f745baae40c529dcc7dce536ee87512a7f1240bd3b44b45f65a738d7d3f57d035b3e2ba434519795cdfa896e277fd0372fdf846971e3d02e63a
+    "@sapphire/utilities": ^3.13.0
+    tslib: ^2.6.2
+  checksum: 2c1455a44ce0f71ace38d12e987ee375a403e58de3862e9c0a1064b219bdfa3794d797fc1f0e07a31fdb84a2d6febec6b08788ba82019462cb7f13b24e68f9e0
   languageName: node
   linkType: hard
 
@@ -361,6 +361,13 @@ __metadata:
     nan: ^2.15.0
     tslib: ^2.3.1
   checksum: 24a2dc1884c72879d910aa1d216ceaab0842ce833ab961acc4b71c3c2addde621cd8080a55af96b63a710933d3acefafe9627e45e2adeca353667b5ed3688f95
+  languageName: node
+  linkType: hard
+
+"@sapphire/utilities@npm:^3.13.0":
+  version: 3.13.0
+  resolution: "@sapphire/utilities@npm:3.13.0"
+  checksum: c2f901c104459e01a24af71871294b700ff188925cf050558880486de6564792df2b7549796dd9fd6f309c12af7d4e2b2d2f4069ec9d4c27d9c3998eca3ac9a9
   languageName: node
   linkType: hard
 
@@ -2986,7 +2993,7 @@ __metadata:
     "@sapphire/plugin-editable-commands": ^1.1.3
     "@sapphire/plugin-hmr": ^1.1.0
     "@sapphire/plugin-logger": ^3.0.0
-    "@sapphire/plugin-subcommands": ^3.0.0
+    "@sapphire/plugin-subcommands": ^5.0.0
     "@sapphire/time-utilities": ^1.5.1
     "@sapphire/type": ^2.1.2
     "@sapphire/utilities": ^3.2.0
@@ -3050,6 +3057,13 @@ __metadata:
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: dbe628ef87f66691d5d2959b3e41b9ca0045c3ee3c7c7b906cc1e328b39f199bb1ad9e671c39025bd56122ac57dfbf7385a94843b1cc07c60a4db74795829acd
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^2.6.2":
+  version: 2.6.2
+  resolution: "tslib@npm:2.6.2"
+  checksum: 329ea56123005922f39642318e3d1f0f8265d1e7fcb92c633e0809521da75eeaca28d2cf96d7248229deb40e5c19adf408259f4b9640afd20d13aecc1430f3ad
   languageName: node
   linkType: hard
 
