@@ -273,14 +273,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/plugin-logger@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@sapphire/plugin-logger@npm:3.0.0"
+"@sapphire/plugin-logger@npm:^4.0.0":
+  version: 4.0.1
+  resolution: "@sapphire/plugin-logger@npm:4.0.1"
   dependencies:
-    "@sapphire/time-utilities": ^1.7.6
-    colorette: ^2.0.19
-    tslib: ^2.4.0
-  checksum: b4323a7d319e53b9a7b01825d4eb73562fb767832d07cbbb00b02208577c36f0cffdbf0572203c53cf5f2348304765e0956661c31a21ad970c834ba295db1363
+    "@sapphire/timestamp": ^1.0.2
+    colorette: ^2.0.20
+  checksum: 7345dd314750c17bd4da4d5d351f479b154b4131d1603045cd386e21cf7ed558d820d3894efdc886ef24e174a140fb09374799761c9e035007b8104378b732aa
   languageName: node
   linkType: hard
 
@@ -344,12 +343,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/time-utilities@npm:^1.7.6":
-  version: 1.7.6
-  resolution: "@sapphire/time-utilities@npm:1.7.6"
-  dependencies:
-    "@sapphire/utilities": ^3.9.2
-  checksum: eadcdf2cbadcc15fa36d7d3b4719acb05f30ed0611f3f8bcfd47d8037221239168f190e79b2c05942cc66a66cbbf3c7d313eda15e9a2a3cff81cf25cec42f3ce
+"@sapphire/timestamp@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@sapphire/timestamp@npm:1.0.2"
+  checksum: 183798db61544ac8f28f11f2caffc7ef81005d67910ff96e02c6cd0caba08d14b740df312130b7845114a4d2532c3364ef0e45c8ad63d156694174e37db3ce0c
   languageName: node
   linkType: hard
 
@@ -891,10 +888,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"colorette@npm:^2.0.19":
-  version: 2.0.19
-  resolution: "colorette@npm:2.0.19"
-  checksum: 888cf5493f781e5fcf54ce4d49e9d7d698f96ea2b2ef67906834bb319a392c667f9ec69f4a10e268d2946d13a9503d2d19b3abaaaf174e3451bfe91fb9d82427
+"colorette@npm:^2.0.20":
+  version: 2.0.20
+  resolution: "colorette@npm:2.0.20"
+  checksum: 0c016fea2b91b733eb9f4bcdb580018f52c0bc0979443dad930e5037a968237ac53d9beb98e218d2e9235834f8eebce7f8e080422d6194e957454255bde71d3d
   languageName: node
   linkType: hard
 
@@ -2985,7 +2982,7 @@ __metadata:
     "@sapphire/framework": next
     "@sapphire/plugin-editable-commands": ^1.1.3
     "@sapphire/plugin-hmr": ^1.1.0
-    "@sapphire/plugin-logger": ^3.0.0
+    "@sapphire/plugin-logger": ^4.0.0
     "@sapphire/plugin-subcommands": ^3.0.0
     "@sapphire/time-utilities": ^1.5.1
     "@sapphire/type": ^2.1.2
