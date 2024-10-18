@@ -1,6 +1,6 @@
 {
   "name": "template",
-  "packageManager": "yarn@3.2.3",
+  "packageManager": "yarn@3.8.6",
   "main": "./build/main.js",
   "scripts": {
     "lint": "eslint --cache --report-unused-disable-directives --ignore-path .gitignore --ext .ts src/",
@@ -13,11 +13,11 @@
   "devDependencies": {
     "@artiefuzzz/eslint-config": "1.3.1",
     "@artiefuzzz/ts": "1.3.2",
-    "@types/node": "17.0.9",
-    "eslint": "8.24.0",
+    "@types/node": "17.0.45",
+    "eslint": "8.57.1",
     "npm-run-all": "4.1.5",
-    "tslib": "2.4.0",
-    "typescript": "4.8.4"
+    "tslib": "2.8.0",
+    "typescript": "4.9.5"
   },
   "dependencies": {
     "@sapphire/decorators": "^4.0.0",
@@ -32,7 +32,7 @@
     "colorette": "^2.0.16",
     "discord.js": "^13.6.0",
     "dotenv-cra": "^3.0.2",
-    "reflect-metadata": "^0.1.13"
+    "reflect-metadata": "^0.2.0"
   },
   "imports": {
     "#lib/*": "./build/lib/*.js",
