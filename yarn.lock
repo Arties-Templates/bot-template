@@ -304,12 +304,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/decorators@npm:^4.0.0":
-  version: 4.3.8
-  resolution: "@sapphire/decorators@npm:4.3.8"
+"@sapphire/decorators@npm:^6.0.0":
+  version: 6.2.0
+  resolution: "@sapphire/decorators@npm:6.2.0"
   dependencies:
-    tslib: "npm:^2.4.0"
-  checksum: 8/1642d102959fe81313c30a180d4bbbdc8ace51c6fb41710e03c5ec971b889aa0e845660c4bdaae4a2f16611bfefd09966c30e6d46fe39c59a0deaaa493f3a54d
+    tslib: "npm:^2.8.1"
+  checksum: 10c0/a1f0b24d820a8cf49e9bbcc785046cca2aeee3766a12247a6dba2d27bf89c5f525eaeb4befeff944961ba50041c9477980fe4e2ea03c7084d32c3a97b276cfdf
   languageName: node
   linkType: hard
 
@@ -2737,7 +2737,7 @@ __metadata:
   dependencies:
     "@artiefuzzz/eslint-config": "npm:1.3.1"
     "@artiefuzzz/ts": "npm:1.3.2"
-    "@sapphire/decorators": "npm:^4.0.0"
+    "@sapphire/decorators": "npm:^6.0.0"
     "@sapphire/framework": "npm:next"
     "@sapphire/plugin-editable-commands": "npm:^4.0.0"
     "@sapphire/plugin-hmr": "npm:^3.0.0"

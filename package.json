@@ -20,7 +20,7 @@
     "typescript": "5.8.3"
   },
   "dependencies": {
-    "@sapphire/decorators": "^4.0.0",
+    "@sapphire/decorators": "^6.0.0",
     "@sapphire/framework": "next",
     "@sapphire/plugin-editable-commands": "^4.0.0",
     "@sapphire/plugin-hmr": "^3.0.0",
