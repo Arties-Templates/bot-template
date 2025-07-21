@@ -1,6 +1,6 @@
 {
   "name": "template",
-  "packageManager": "yarn@3.2.3",
+  "packageManager": "yarn@4.9.2",
   "main": "./build/main.js",
   "scripts": {
     "lint": "eslint --cache --report-unused-disable-directives --ignore-path .gitignore --ext .ts src/",
