@@ -334,12 +334,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/cron@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "@sapphire/cron@npm:1.2.1"
+"@sapphire/cron@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@sapphire/cron@npm:2.0.0"
   dependencies:
-    "@sapphire/utilities": "npm:^3.18.1"
-  checksum: 10c0/9a243ecfc847fc23f3bc2dce8092e99df1de3d4adaa858dd01a0fc6d22c9c4cbdee38c6ac36020ca474011c4a25da3cc0ff1db6759fbd6fdaed53fd41b317c4d
+    "@sapphire/utilities": "npm:^4.0.0"
+  checksum: 10c0/fafcd3702cd8ea65acb14017fa3c13e3634d2fda6a33f9e31f8eca318fe6ee3ace562839335dc6c973c42be5c396e992d12bb54221ca17f0d5bf2b1621bc28c5
   languageName: node
   linkType: hard
 
@@ -373,10 +373,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/duration@npm:^1.1.4, @sapphire/duration@npm:^1.2.0":
+"@sapphire/duration@npm:^1.2.0":
   version: 1.2.0
   resolution: "@sapphire/duration@npm:1.2.0"
   checksum: 10c0/decd2955c2f0aac2c4db37866686f05717e39e54011420fd8fbd7faf2227fd33b85c77fda84c51ff67824f809c91f478b4bb5c9bb368a4e5c3c8a641f254b783
+  languageName: node
+  linkType: hard
+
+"@sapphire/duration@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@sapphire/duration@npm:2.0.0"
+  checksum: 10c0/b728d50155bc3e50e40caad2daf316237052efecccd9d1dc945350fb09d86017be49994911775157d80ff6196a80f08734fb308698237005c410553a7e4f8e8c
   languageName: node
   linkType: hard
 
@@ -501,22 +508,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/time-utilities@npm:^1.5.1":
-  version: 1.7.14
-  resolution: "@sapphire/time-utilities@npm:1.7.14"
+"@sapphire/time-utilities@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@sapphire/time-utilities@npm:2.0.0"
   dependencies:
-    "@sapphire/cron": "npm:^1.2.1"
-    "@sapphire/duration": "npm:^1.1.4"
-    "@sapphire/timer-manager": "npm:^1.0.4"
-    "@sapphire/timestamp": "npm:^1.0.5"
-  checksum: 10c0/2cc6c4c3b2e95aeb7a1fa862663b925f5a5c0538c816be46b24b269c95edaf095fcdc17009ccd7c1566cdff91e3f76314bc750117f4347663ada1bcd9fc439a7
+    "@sapphire/cron": "npm:^2.0.0"
+    "@sapphire/duration": "npm:^2.0.0"
+    "@sapphire/timer-manager": "npm:^2.0.0"
+    "@sapphire/timestamp": "npm:^2.0.0"
+  checksum: 10c0/94e7317840daea86f8f9fd82e6fdb10dc158ff4c258d5b05e38e4e1bddcf46b9c2e8b110434244193a511bd45fa8d2c70911de42017ecc80a7f414d717fafdcd
   languageName: node
   linkType: hard
 
-"@sapphire/timer-manager@npm:^1.0.4":
-  version: 1.0.4
-  resolution: "@sapphire/timer-manager@npm:1.0.4"
-  checksum: 10c0/9e1a2d2a7731bc0df8a91e057c5546b50fa1d8cf210cc1f0fba5ac1b5da76ee39ac80ebb033b616ba3e8db1657097363673e8ec7daa9803d7620f5b19e4803f5
+"@sapphire/timer-manager@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@sapphire/timer-manager@npm:2.0.0"
+  checksum: 10c0/1e0450db08ec44bb041e21c29a542e7ae15cdaa3237fc575144b5a616b3cfffdb6d2587cdb6252ff47c17987d6c27ab9ada48ec54d9d8c00b91b242808f9c60d
   languageName: node
   linkType: hard
 
@@ -524,6 +531,13 @@ __metadata:
   version: 1.0.5
   resolution: "@sapphire/timestamp@npm:1.0.5"
   checksum: 10c0/e4375da147820274280ea6420204b480b53489b6f539f5f1f10a9db0fdd99b73cb3603aad7756e885aec1db45c3c325b3e965c8239f84913cdb4797f9f0fe1ba
+  languageName: node
+  linkType: hard
+
+"@sapphire/timestamp@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@sapphire/timestamp@npm:2.0.0"
+  checksum: 10c0/158dbb0fe530b2960907781b8f8581aba00dc41897464a3c7f663cb81f151e8e60a48999c3a093ac5bd969b618e2966a45ba31014bae3f342b4e4a45ef2fedfc
   languageName: node
   linkType: hard
 
@@ -538,10 +552,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/utilities@npm:^3.18.0, @sapphire/utilities@npm:^3.18.1, @sapphire/utilities@npm:^3.18.2, @sapphire/utilities@npm:^3.2.0":
+"@sapphire/utilities@npm:^3.18.0, @sapphire/utilities@npm:^3.18.2, @sapphire/utilities@npm:^3.2.0":
   version: 3.18.2
   resolution: "@sapphire/utilities@npm:3.18.2"
   checksum: 10c0/7c816357b974d0f1176da82f88180731b961b8ef7d3dafce31e819fe55d3123f4caa0f3005b031dec3724571ab5b837fa6fcbc9128162e7ffc6f50d2e7a3d26f
+  languageName: node
+  linkType: hard
+
+"@sapphire/utilities@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "@sapphire/utilities@npm:4.0.0"
+  checksum: 10c0/8412406771578d709998bcea995ea5ed06abfd2bacb88f8a03ee0346c967a206b6b1b4cf762ef153310ff770f870418f703938343766b720b7827b115d1cbf98
   languageName: node
   linkType: hard
 
@@ -2591,7 +2612,7 @@ __metadata:
     "@sapphire/plugin-hmr": "npm:^3.0.0"
     "@sapphire/plugin-logger": "npm:^4.0.0"
     "@sapphire/plugin-subcommands": "npm:^7.0.0"
-    "@sapphire/time-utilities": "npm:^1.5.1"
+    "@sapphire/time-utilities": "npm:^2.0.0"
     "@sapphire/type": "npm:^2.1.2"
     "@sapphire/utilities": "npm:^3.2.0"
     "@types/node": "npm:22.17.1"
