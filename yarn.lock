@@ -527,14 +527,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/type@npm:^2.1.2":
-  version: 2.6.0
-  resolution: "@sapphire/type@npm:2.6.0"
+"@sapphire/type@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@sapphire/type@npm:3.0.0"
   dependencies:
     "@discordjs/node-pre-gyp": "npm:^0.4.5"
-    nan: "npm:^2.22.0"
-    tslib: "npm:^2.8.1"
-  checksum: 10c0/6771f8508e9684a2b5ed55d33bbd14af9b83e6b9d905cf93d29554fbaefcb6f1cee766c522d4f14d68751138ce625e928bec0f513123352adc8c7f5d44d6382a
+    nan: "npm:^2.30.0"
+    tslib: "npm:^2.9.1"
+  checksum: 10c0/3799939a03deec82007f6f417d805a6cc9c4147b1ecae08d3ba1c0f4483833e9ca0f528f15829ad0d7fe4b8dd332a1d72d83c0c4a221051aa58f001b6123b0ec
   languageName: node
   linkType: hard
 
@@ -1987,12 +1987,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nan@npm:^2.22.0":
-  version: 2.23.0
-  resolution: "nan@npm:2.23.0"
+"nan@npm:^2.30.0":
+  version: 2.30.0
+  resolution: "nan@npm:2.30.0"
   dependencies:
     node-gyp: "npm:latest"
-  checksum: 10c0/b986dd257dca53ab43a3b6ca6d0eafde697b69e1d63b242fa4aece50ce97eb169f9c4a5d8eb0eb5f58d118a9595fee11f3198fa210f023440053bb6f54109e73
+  checksum: 10c0/563bf97c84099feeccae9aeaee1f1e14043e0ab0e8525497058495373e9a53abd46b00a6f5d178931911c2739c8ee94604da13d1245ab9e8b689339e61e98c23
   languageName: node
   linkType: hard
 
@@ -2592,7 +2592,7 @@ __metadata:
     "@sapphire/plugin-logger": "npm:^4.0.0"
     "@sapphire/plugin-subcommands": "npm:^7.0.0"
     "@sapphire/time-utilities": "npm:^1.5.1"
-    "@sapphire/type": "npm:^2.1.2"
+    "@sapphire/type": "npm:^3.0.0"
     "@sapphire/utilities": "npm:^3.2.0"
     "@types/node": "npm:22.17.1"
     colorette: "npm:^2.0.16"
@@ -2650,6 +2650,13 @@ __metadata:
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: 10c0/69ae09c49eea644bc5ebe1bca4fa4cc2c82b7b3e02f43b84bd891504edf66dbc6b2ec0eef31a957042de2269139e4acff911e6d186a258fb14069cd7f6febce2
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^2.9.1":
+  version: 2.9.1
+  resolution: "tslib@npm:2.9.1"
+  checksum: 10c0/8ff46e7a4d19fa62c23483c89cf5ccc3906e742ef6e6d60bd3826b686143b300b4f6f04161cc1cf31a6b11fe70e1058ae4d4e4a108b5c68326d469684736a83c
   languageName: node
   linkType: hard
 
